@@ -516,7 +516,10 @@ body {
 .site-description {
 	padding-top: 4px;
 }
-.header-image,
+.header-image {
+	margin-left: auto;
+	margin-right: auto;
+}
 .featured-post {
 	margin-left: -20px;
 	margin-right: -20px;
@@ -574,6 +577,10 @@ body {
 	.footer-widget-area,
 	.site-bottom {
 		max-width: 1260px;
+	}
+	.header-image {
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.site-branding {
 		position: relative;
