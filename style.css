@@ -4,7 +4,7 @@ Theme URI: http://themegraphy.com/wordpress-themes/graphy/
 Author: Themegraphy
 Author URI: http://themegraphy.com/
 Description: Graphy is now compatible with WordPress 5.0 and Gutenberg! Graphy is a blog-oriented WordPress theme designed with great attention given to the beauty of the typography. Made using mobile-first responsive web design, even when your site is viewed on a smartphone or tablet there will be no negative impact on the beautiful typography. Modified by Nori Hayashi, https://www.hayashi-lin.net/, https://github.com/aslemen/wp-graphy-deu
-Version: 2.3.0 patch 3
+Version: 2.3.0 patch 4
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: graphy
@@ -663,7 +663,7 @@ body {
 }
 .site-title {
 	font-size: 48px;
-	line-height: 0.8;
+	line-height: 1.1;
 	margin-bottom: 0;
 	margin-top: 0;
 	vertical-align: middle;
@@ -1021,7 +1021,7 @@ a.category:hover {
 
 /* Entry Title */
 .entry-header {
-	margin-bottom: 0.7rem;
+	margin-bottom: 2rem;
 }
 .no-sidebar .post-full-summary .entry-header,
 .page.no-sidebar .entry-header,
