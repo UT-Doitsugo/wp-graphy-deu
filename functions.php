@@ -52,7 +52,7 @@ function graphy_setup() {
 	add_image_size( 'graphy-post-thumbnail-large', 1080, 600, true );
 	add_image_size( 'graphy-post-thumbnail-medium', 482, 300, true );
 	add_image_size( 'graphy-post-thumbnail-small', 80, 60, true );
-	add_image_size( 'graphy-page-thumbnail', 1260, 350, true );
+	add_image_size( 'graphy-page-thumbnail', 1260, 0, true );
 	update_option( 'large_size_w', 700 );
 	update_option( 'large_size_h', 0 );
 
