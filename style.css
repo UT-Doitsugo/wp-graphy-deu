@@ -4,7 +4,7 @@ Theme URI: http://themegraphy.com/wordpress-themes/graphy/
 Author: Themegraphy
 Author URI: http://themegraphy.com/
 Description: Graphy is now compatible with WordPress 5.0 and Gutenberg! Graphy is a blog-oriented WordPress theme designed with great attention given to the beauty of the typography. Made using mobile-first responsive web design, even when your site is viewed on a smartphone or tablet there will be no negative impact on the beautiful typography. Modified by Nori Hayashi, https://www.hayashi-lin.net/, https://github.com/aslemen/wp-graphy-deu
-Version: 2.3.0 patch 5
+Version: 2.3.0 patch 6
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: graphy
@@ -67,27 +67,38 @@ body {
 }
 
 /* Heading */
-h1, h2, h3, h4, h5, h6, .site-title {
+h1,h2,h3,h4,h5,h6, .site-title{
 	clear: both;
 	color: #111;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 400;
 	letter-spacing: -0.01em;
 	line-height: 1.4;
-	margin-top: 0;
-	margin-bottom: 0.7rem;
+	margin-top: 3rem;
+	margin-bottom: 1.1rem;
 }
+
+h1 + h1,h1 + h2,h1 + h3,h1 + h4,h1 + h5,h1 + h6,h2 + h1,h2 + h2,h2 + h3,h2 + h4,h2 + h5,h2 + h6,h3 + h1,h3 + h2,h3 + h3,h3 + h4,h3 + h5,h3 + h6,h4 + h1,h4 + h2,h4 + h3,h4 + h4,h4 + h5,h4 + h6,h5 + h1,h5 + h2,h5 + h3,h5 + h4,h5 + h5,h5 + h6,h6 + h1,h6 + h2,h6 + h3,h6 + h4,h6 + h5,h6 + h6 {
+	margin-top: 0;
+}
+
 h1 {
 	font-size: 2.5rem;
 }
 h2 {
-	font-size: 1.75rem;
+	font-size: 1.9rem;
 }
 h3 {
 	font-size: 1.5rem;
 }
+h3::before {
+	content: "■ ";
+}
 h4 {
 	font-size: 1.25rem;
+}
+h4::before{
+	content: "□ ";
 }
 h5 {
 	font-size: 1.125rem;
