@@ -17,6 +17,7 @@
                 "--unstable",
                 "--allow-read",
                 "--allow-write",
+                "--allow-env",
             ],
             "attachSimplePort": 9229
         }
